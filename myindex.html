@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section id="hero" class="h-[100vh]">
+        <header class="bg-black/20 text-white">
+            <div class="h-[50px] w-full px-20 py-5 flex items-center justify-between">
+                <h1 class="text-xl font-bold">Portfolio</h1>
+                <div class="h-full w-2/5 flex items-center">
+                    <ul class="w-full flex justify-between">
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#abt">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="w-full flex justify-center">
+            <div class="w-3/4 h-[5px] bg-pink-400/40 rounded-full"></div>
+        </div>
+        <hero-page class="w-full h-full flex items-center justify-center">
+            <div class="w-[200px] h-[200px] space-y-6">
+                <p class="text-center text-2xl font-bold">Hey I am Subhash 👋</p>
+                <p class="text-center">Developer / Designer</p>
+                <button class="px-5 py-2 mx-auto block rounded-full bg-green-500">
+                    Hire me
+                </button>
+            </div>
+
+
+
+
+        </hero-page>
+    </section>
+    <section id="abt" class="about flex w-full h-[100vh]">
+        <div class="w-1/2 h-[100vh] p-10">
+            <h1 class="text-center font-bold text-2xl mb-10">About me</h1>
+            <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sit, distinctio soluta
+                perspiciatis necessitatibus voluptatum non? Fugiat rerum natus expedita doloribus quia voluptas! Quis,
+                tempora. Iure officia dignissimos eveniet eaque illo aperiam quas corporis beatae a, facere ut saepe
+                ipsam, nesciunt neque natus ipsa ducimus voluptate similique quo. Sint, at? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Id consectetur corrupti minus cupiditate numquam ut voluptatum architecto
+                itaque, est harum ea, similique, quibusdam tenetur. Impedit in eligendi, similique nobis commodi, hic
+                dolorem illum necessitatibus blanditiis nihil animi laudantium exercitationem fugiat iure esse incidunt
+                natus omnis quibusdam deserunt recusandae eaque aliquid debitis, asperiores deleniti! Corporis illum
+                delectus temporibus placeat corrupti magni sapiente et voluptatum officia pariatur odit nostrum laborum
+                omnis a, possimus tempore porro ab nisi libero eos incidunt accusamus nihil. Delectus ducimus velit iure
+                doloremque, enim suscipit inventore possimus ratione rem placeat dolorum, distinctio atque natus optio
+                eos. Illo, qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, corrupti odio!
+                Possimus aliquid, quia neque corporis tenetur maxime? Maiores amet, vel obcaecati iusto ipsum laborum
+                natus laboriosam quibusdam illum inventore!
+            </p>
+        </div>
+        <div class="w-1/2 flex items-center p-10">
+            <img class="block w-full h-auto rounded-lg"
+                src="https://images.pexels.com/photos/3063478/pexels-photo-3063478.jpeg" alt="">
+        </div>
+    </section>
+
+    <section id="contact" class="flex flex-col md:flex-row w-full min-h-s- p-8 gap-8 bg-gray-50">
+  <!-- Left -->
+  <div class="flex-1 p-6 bg-white rounded-lg">
+    <h2 class="text-2xl font-bold mb-6">Contact Me</h2>
+    <form class="flex flex-col gap-4">
+      <input type="text" placeholder="Your Name" class="p-3 border rounded-md">
+      <input type="email" placeholder="Your Email" class="p-3 border rounded-md">
+      <textarea rows="6" placeholder="Your Message" class="p-3 border rounded-md"></textarea>
+      <button class="bg-pink-500 text-white py-2 rounded-md hover:bg-pink-600">Send</button>
+    </form>
+  </div>
+
+  <!-- Right -->
+  <div class="flex-1">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3554.0060368560203!2d75.8920448755479!3d27.029975176577487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396daffaeb5d6691%3A0x138d32b2afb5e421!2sArya%20Old%20Campus!5e0!3m2!1sen!2sin!4v1756909778672!5m2!1sen!2sin" 
+      class="w-full h-[450px] rounded-lg border-0"
+      loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+
+</body>
+
+</html>
